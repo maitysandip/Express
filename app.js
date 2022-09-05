@@ -7,6 +7,6 @@ app.get('/', (req, res) => {
 })
 // define routes here..
 
-var server = app.listen(5001, () => {
+var server = app.listen(5000, () => {
     console.log('Node server is running..');
 });
